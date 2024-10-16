@@ -1,0 +1,54 @@
+.contenedor-flexible{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /*a lo largo del eje principal*/
+    align-items: center; /*a lo largo del eje transversal*/
+    flex-wrap: wrap;
+}
+
+.uno, .siete{
+    background-color: lightblue;
+    width: 150px;
+    height: 80px;
+}
+
+.dos, .seis{
+    background-color: lightcoral;
+    width: 150px;
+    height: 110px;
+}
+
+.tres, .cinco{
+    background-color: lightseagreen;
+    width: 150px;
+    height: 120px;
+}
+
+.cuatro{
+    background-color: lightsalmon;
+    width: 150px;
+    height: 150px;
+}
+.contenedorflex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.elem1{
+    background-color:pink;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.elem2{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.elem3{
+    background-color: darkseagreen;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
